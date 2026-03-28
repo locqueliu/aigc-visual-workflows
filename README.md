@@ -2,44 +2,53 @@
 
 # aigc-visual-workflows
 
-A public-safe showcase for structured AIGC image workflows.
+[Chinese Version](./README_zh.md)
 
-This repo is designed as a clean reference for people who want to present AI-assisted visual systems on GitHub without exposing client assets, internal prompts, or proprietary nodes.
+This repository is where I organize structured AIGC workflow definitions for visual production.
+
+I use it to keep workflow ideas readable: what the workflow is for, what inputs it expects, which stack it relies on, and what quality checks matter before I consider the result usable.
 
 ## What is inside
 
-- a static microsite to explain workflow categories
-- JSON workflow definitions under `workflows/`
-- a Node validation script for keeping the workflow files consistent
-- a reusable structure for documenting prompt systems and QA logic
+- a small static site that presents workflow categories
+- workflow specs under `workflows/`
+- a validation script that checks every workflow file for required fields
+- a simple structure for documenting stack choices and QA logic
 
-## Why this repo is useful
+## Current workflow themes
 
-Creative AI work often gets trapped inside screenshots, chat logs, or unnamed folders. This project shows a cleaner alternative:
+- product detail imagery
+- lookbook and scene building
+- brand storyboard planning
 
-- define the workflow purpose
+## Why I keep workflows this way
+
+AI visual work becomes hard to reuse when it only exists as screenshots, node screenshots, or scattered notes. I prefer a structure that makes each workflow easy to revisit:
+
+- define the purpose
 - list the inputs clearly
-- document the generation stack
-- write down quality gates
-- keep outputs grouped by use case
+- record the model and node stack
+- write down the quality checks
+- keep workflows grouped by output type
 
-## Commands
+## Command
 
 ```bash
 npm run validate:workflows
 ```
 
-## Suggested extensions
+## Repository structure
 
-- add your own workflow categories
-- add preview images that are safe to publish
-- add a model routing matrix
-- attach post-production checklists for real projects
-- deploy the static site with GitHub Pages
+- `workflows/` workflow specs in JSON
+- `scripts/validate-workflows.mjs` schema-like validation for workflow files
+- `index.html`, `styles.css`, `app.js` static site for browsing workflow categories
 
-## Public-safe rule
+## Next directions
 
-Do not put private campaign images, confidential briefs, closed-source node files, API keys, or customer material into this repo.
+- add more workflow families as production needs grow
+- attach preview assets that are safe to share
+- expand model routing and post-processing notes
+- keep the workflow files consistent enough to be searchable and reusable
 
 ## License
 
