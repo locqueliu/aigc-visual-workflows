@@ -1,0 +1,12 @@
+{
+  "title": "Brand storyboard generator",
+  "category": "Campaign planning",
+  "summary": "Turn a short campaign brief into modular storyboard frames, visual tone notes, and reusable prompt fragments for motion or edit teams.",
+  "mode": "Image sequence",
+  "output": "Storyboard frames and shot prompts",
+  "tags": ["Storyboarding", "Campaign", "Prompt pack"],
+  "inputs": ["brief", "tone words", "product angle", "scene constraints"],
+  "stack": ["prompt scaffold", "reference image routing", "sequence planning"],
+  "quality_checks": ["style consistency", "shot variety", "brand-safe framing"],
+  "best_for": ["brand teasers", "launch films", "social campaign planning"]
+}

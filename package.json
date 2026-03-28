@@ -1,0 +1,9 @@
+{
+  "name": "aigc-visual-workflows",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "validate:workflows": "node ./scripts/validate-workflows.mjs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Product detail page visual pack",
+  "category": "Commerce imaging",
+  "summary": "Create a repeatable visual pack for product pages, including hero stills, material callouts, and use-case scene prompts.",
+  "mode": "Commerce visual set",
+  "output": "Hero images, detail shots, and benefit scenes",
+  "tags": ["Ecommerce", "Detail page", "Conversion visuals"],
+  "inputs": ["product brief", "material features", "target audience", "market channel"],
+  "stack": ["prompt routing", "scene batching", "post-polish checklist"],
+  "quality_checks": ["feature visibility", "surface realism", "conversion clarity"],
+  "best_for": ["store listings", "detail pages", "marketplace assets"]
+}

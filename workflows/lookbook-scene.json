@@ -1,0 +1,12 @@
+{
+  "title": "Lookbook scene builder",
+  "category": "Editorial imaging",
+  "summary": "Build clean fashion or editorial scenes using a small set of repeatable environment, lighting, and styling variables.",
+  "mode": "Styled still image",
+  "output": "Scene-ready hero images",
+  "tags": ["Lookbook", "Lighting", "Scene design"],
+  "inputs": ["subject profile", "wardrobe note", "lighting mood", "camera intent"],
+  "stack": ["prompt fragments", "pose guidance", "composition control"],
+  "quality_checks": ["pose clarity", "fabric readability", "clean negative space"],
+  "best_for": ["fashion drops", "editorial covers", "collection previews"]
+}

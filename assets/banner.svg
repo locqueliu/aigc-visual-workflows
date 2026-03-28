@@ -1,0 +1,23 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#11141A"/>
+  <rect width="1280" height="720" fill="url(#paint0_radial)" fill-opacity="0.72"/>
+  <rect x="790" y="120" width="284" height="120" fill="#181C23" stroke="rgba(255,255,255,0.16)"/>
+  <rect x="865" y="300" width="284" height="120" fill="#181C23" stroke="rgba(255,255,255,0.16)"/>
+  <rect x="940" y="480" width="244" height="100" fill="#181C23" stroke="rgba(255,255,255,0.16)"/>
+  <path d="M1074 180H1140C1168.72 180 1192 203.281 1192 232V300" stroke="#8BE1C7" stroke-width="3"/>
+  <path d="M1149 360H1200C1228.72 360 1252 383.281 1252 412V480" stroke="#F4C074" stroke-width="3"/>
+  <text x="92" y="110" fill="#B9B1A6" font-family="Arial, sans-serif" font-size="24" letter-spacing="6">AIGC VISUAL WORKFLOWS</text>
+  <text x="92" y="236" fill="#F5F2EC" font-family="Georgia, serif" font-size="88" font-weight="700">
+    <tspan x="92" dy="0">Document the system,</tspan>
+    <tspan x="92" dy="94" fill="#8BE1C7">not just the output.</tspan>
+  </text>
+  <text x="92" y="580" fill="#B9B1A6" font-family="Arial, sans-serif" font-size="24">
+    Public-safe blueprint for prompt packs, workflow specs, and quality gates.
+  </text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1148 84) rotate(140.906) scale(647.356 1002.95)">
+      <stop stop-color="#234E4C"/>
+      <stop offset="1" stop-color="#11141A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

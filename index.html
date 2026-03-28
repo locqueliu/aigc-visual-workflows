@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIGC Visual Workflows</title>
+    <meta
+      name="description"
+      content="A public-safe showcase for structured AI visual workflows, prompt packs, and production logic."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">VISUAL OPS · PROMPT DESIGN · QA</p>
+          <h1>
+            Rebuild AI image workflows as
+            <span>clear systems, not mystery folders.</span>
+          </h1>
+          <p>
+            This repo is a public-safe blueprint for organizing AIGC visual work:
+            workflow definitions, prompt fragments, model routing notes, and
+            quality gates.
+          </p>
+        </div>
+        <div class="hero-side">
+          <div class="hero-panel">
+            <span>Included</span>
+            <strong>JSON workflow specs</strong>
+            <strong>Validation script</strong>
+            <strong>Static showcase</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="overview reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow Map</p>
+          <h2>Three common creative-production patterns.</h2>
+        </div>
+        <div class="workflow-grid" id="workflow-grid"></div>
+      </section>
+
+      <section class="architecture reveal">
+        <div class="section-heading">
+          <p class="eyebrow">System Logic</p>
+          <h2>Keep inputs, generation, and QA visibly separate.</h2>
+        </div>
+        <div class="architecture-flow">
+          <div>Brief</div>
+          <div>Prompt Pack</div>
+          <div>Model Route</div>
+          <div>Post Check</div>
+          <div>Export</div>
+        </div>
+        <p class="architecture-note">
+          When the workflow is written down clearly, it becomes easier to reuse,
+          explain, version, and hand off.
+        </p>
+      </section>
+
+      <section class="details reveal" id="details"></section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
