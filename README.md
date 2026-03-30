@@ -1,4 +1,4 @@
-![Banner](./assets/banner.svg)
+![Repo banner](./assets/repo-banner.svg)
 
 # aigc-visual-workflows
 
